@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<body >
+ <svg version = "1.1"
+ baseProfile="full"
+ xmlns = "http://www.w3.org/2000/svg"
+ xmlns:xlink = "http://www.w3.org/1999/xlink"
+ xmlns:ev = "http://www.w3.org/2001/xml-events"
+ height = "400px" width = "600px">
+
+
+<rect x="200" y="100" width="50" height="50" style="fill:blue;stroke-width:2;stroke:rgb(0,0,0)" />
+<circle cx="225" cy="175" r="25" stroke="black" stroke-width="2" fill="blue" />
+<polygon points="200,250 225,200 250,250" style="fill:blue" stroke="black" stroke-width="2" />
+<rect x="250" y="250" width="50" height="50" style="fill:blue;stroke-width:2;stroke:rgb(0,0,0)" />
+<ellipse cx="350" cy="200" rx="50" ry="100" stroke="black" stroke-width="2" fill="blue" />
+<rect x="300" y="50" width="100" height="50" style="fill:blue;stroke-width:2;stroke:rgb(0,0,0)" />
+<rect x="450" y="100" width="50" height="50" style="fill:blue;stroke-width:2;stroke:rgb(0,0,0)" />
+<circle cx="475" cy="175" r="25" stroke="black" stroke-width="2" fill="blue" />
+<polygon points="500,250 475,200 450,250" style="fill:blue" stroke="black" stroke-width="2" />
+<rect x="400" y="250" width="50" height="50" style="fill:blue;stroke-width:2;stroke:rgb(0,0,0)" />
+
+
+
+
+<line x1="10" y1="200" x2="580" y2="200"
+stroke="black" stroke-width="3" />
+<polygon points="200,16 205,25 195,25" style="fill:black" />
+<polygon points="588,200 580,195 580,205" style="fill:black" />
+<line x1="200" y1="20" x2="200" y2="390"
+stroke="black" stroke-width="3" />
+
+<line x1="150" y1="180" x2="150" y2="220"
+stroke="black" stroke-width="2" />
+<line x1="250" y1="180" x2="250" y2="220"
+stroke="black" stroke-width="2" />
+<line x1="300" y1="180" x2="300" y2="220"
+stroke="black" stroke-width="2" />
+<line x1="350" y1="180" x2="350" y2="220"
+stroke="black" stroke-width="2" />
+<line x1="400" y1="180" x2="400" y2="220"
+stroke="black" stroke-width="2" />
+<line x1="450" y1="180" x2="450" y2="220"
+stroke="black" stroke-width="2" />
+<line x1="500" y1="180" x2="500" y2="220"
+stroke="black" stroke-width="2" />
+
+<line x1="175" y1="300" x2="225" y2="300"
+stroke="black" stroke-width="2" />
+<line x1="175" y1="250" x2="225" y2="250"
+stroke="black" stroke-width="2" />
+<line x1="175" y1="150" x2="225" y2="150"
+stroke="black" stroke-width="2" />
+<line x1="175" y1="100" x2="225" y2="100"
+stroke="black" stroke-width="2" />
+
+<text x="180" y="220" fill="black">0</text>
+<text x="230" y="220" fill="black">1</text>
+<text x="280" y="220" fill="black">2</text>
+<text x="330" y="220" fill="black">3</text>
+<text x="380" y="220" fill="black">4</text>
+<text x="430" y="220" fill="black">5</text>
+<text x="530" y="220" fill="black">X</text>
+
+<text x="180" y="270" fill="black">-1</text>
+<text x="180" y="320" fill="black">-2</text>
+<text x="180" y="170" fill="black">1</text>
+<text x="180" y="120" fill="black">2</text>
+<text x="210" y="60" fill="black">Y</text>
+
+
+</svg>
+
+ </body>
+</html>
