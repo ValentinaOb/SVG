@@ -40,7 +40,15 @@
 <polygon points="500,250 475,200 450,250" style="fill:blue" stroke="black" stroke-width="2" />
 <rect x="400" y="250" width="50" height="50" style="fill:blue;stroke-width:2;stroke:rgb(0,0,0)" />
 
-
+    <defs>
+		<path id="text_0_path" fill="none" d="M25,300c0-40,30-70,70-70s70,32,70,70"/>
+    </defs>
+    <use xlink:href="#text_0_path" stroke="none" fill="none"/>
+    <text font-family="Arial" font-size="16px" text-anchor="start">
+    <textPath xlink:href="#text_0_path" startOffset="12.5%">
+		<tspan>Text Text Text Text Text</tspan>
+    </textPath>
+    </text>
 
 
 <line x1="10" y1="200" x2="580" y2="200"
